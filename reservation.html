@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Reservation – Bella Vita</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section class="content reveal">
+  <h1>Tisch reservieren</h1>
+
+  <form action="https://formspree.io/f/xjgkpqae" method="POST">
+    <input type="hidden" name="_redirect" value="thanks.html">
+
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="E-Mail" required>
+    <input type="date" name="date" required>
+    <input type="number" name="persons" placeholder="Personen" required>
+
+    <button type="submit" class="btn-primary">Reservieren</button>
+  </form>
+</section>
+
+</body>
+</html>
