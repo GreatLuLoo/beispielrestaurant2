@@ -138,22 +138,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background:
-    linear-gradient(135deg, rgba(123,31,46,0.5), rgba(123,31,46,0.3)), /* leichte Weinrot-Überlagerung für Textlesbarkeit */
-    url('assets/restaurant_hero.jpg'); /* Dein Restaurant-Foto hier */
+  background: url('assets/restaurant_hero.jpg'); /* nur das Bild, kein Gradient */
   background-size: cover;
   background-position: center;
-  color: var(--white);
+  color: var(--white); /* Textfarbe bleibt weiß für Kontrast */
   text-align: center;
   padding: 2rem;
 }
 
-.hero p {
-  max-width: 600px;
-  margin: auto;
-  margin-bottom: 2rem;
-  color: var(--white);
-}
 
 
 /* ===================== SECTIONS ===================== */
