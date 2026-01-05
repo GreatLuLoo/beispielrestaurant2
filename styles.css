@@ -139,8 +139,8 @@ a {
   align-items: center;
   justify-content: center;
   background:
-    linear-gradient(135deg, rgba(123,31,46,0.85), rgba(255,255,255,0.15)),
-    url('https://images.unsplash.com/photo-1603073473052-0455c8df00b6?auto=format&fit=crop&w=1600&q=80');
+    linear-gradient(135deg, rgba(123,31,46,0.5), rgba(123,31,46,0.3)), /* leichte Weinrot-Überlagerung für Textlesbarkeit */
+    url('assets/restaurant_hero.jpg'); /* Dein Restaurant-Foto hier */
   background-size: cover;
   background-position: center;
   color: var(--white);
@@ -154,6 +154,7 @@ a {
   margin-bottom: 2rem;
   color: var(--white);
 }
+
 
 /* ===================== SECTIONS ===================== */
 section {
