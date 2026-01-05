@@ -327,3 +327,10 @@ input:focus {
 html {
   scroll-behavior: smooth;
 }
+/* ===================== LOGO TEXT ===================== */
+.logo-text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700; /* Fett */
+  color: var(--red); /* Weinrot */
+  font-size: 1.6rem;
+}
